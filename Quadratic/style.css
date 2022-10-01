@@ -1,0 +1,68 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-image: url('Background.png');
+}
+.top{
+    font-size: 15px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#a,#b,#c{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border: 1.75px solid green;
+    text-align: center;
+    height: 20px;
+    font-size: 15px;
+}
+.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.button{
+    border: none;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 125px;
+}
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.button1:hover{
+    background-color: #008CBA;
+    color: white;
+}
+#att{
+    position: absolute;
+    bottom: 0.5%;
+    left: 0.5%;
+    text-align:center;
+}

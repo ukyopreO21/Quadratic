@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="noselect">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <title>Giải phương trình bậc 2</title>
+</head>
+<body>
+    <div align="center" class="top">
+        <table align="center">
+            <tr>
+              <th></th>
+              <th scope="col">a</th>
+              <th scope="col">b</th>
+              <th scope="col">c</th>
+            </tr>
+            <tr>
+              <th scope="row" class="vt"></th>
+              <td><input id="a"></td>
+              <td><input id="b"></td>
+              <td><input id="c"></td>
+            </tr>
+        </table>
+      </div>
+      <div class="middle" align="center">
+        <button id="TCH" class="button button1" onclick="TCH()">Giải</button> 
+        <br><br>
+      </div>
+      <div class="bottom" align="center">
+        <label id="printAns"></label><br>
+        <label id="printAns2">  </label>
+      </div>
+      <label id="att"><font color="red">&#9733; Chú ý:</font> Hiện tại chỉ giải được hệ số thực. Một giá trị <font color="blue">không được nhập</font>  sẽ tự động mang giá trị là <font color="blue">0</font>.</label>
+    <script src="code.js"></script>
+</body>
+</html>
